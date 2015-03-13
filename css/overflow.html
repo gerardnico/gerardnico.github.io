@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<style>
+    div {
+        width: 100px;
+        height: 100px;
+        border: thin solid red;
+    }
+
+    blockquote {
+        width: 125px;
+        height: 100px;
+        margin-top: 50px;
+        margin-left: 50px;
+        border: thin dashed black
+    }
+
+    cite {
+        display: block;
+        text-align: right;
+        border: none
+    }
+
+    div.withOverflow {
+        width: 100px;
+        height: 100px;
+        border: thin solid red;
+        overflow:hidden;
+    }
+</style>
+
+
+<div class="withOverflow">
+    <blockquote>
+        <p>I didn't like the play, but then I saw
+            it under adverse conditions - the curtain was up.</p>
+        <cite>- Groucho Marx</cite>
+    </blockquote>
+</div>
+
+<p></p>
+
+<div>
+    <blockquote>
+        <p>I didn't like the play, but then I saw
+            it under adverse conditions - the curtain was up.</p>
+        <cite>- Groucho Marx</cite>
+    </blockquote>
+</div>
+
+</body>
+</html>
